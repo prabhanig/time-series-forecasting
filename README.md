@@ -51,10 +51,10 @@ Time-Series-Analysis/
 │   ├── UKTouristsVisits.csv
 │   └── Sunspots.csv
 ├── scripts/             # R scripts for analysis
-│   ├── Time_Series_CW_TS1.R
-│   ├── Time_Series_CW_TS2.R
+│   ├── EDA for Time Series Data using R.R
+│   ├── Time Series Model Fitting and Forecasting.R
 ├── report/              # Final report
-│   └── MS4S09_CW2_30050079.pdf
+│   └── Time Series Analysis using R_PG.pdf
 ├── results/             # Plots and outputs
 ```
 
@@ -79,11 +79,11 @@ To execute the analysis:
 2. Run the scripts in the `scripts/` folder:
    - For **UK Tourist Visits**:
      ```r
-     source("scripts/Time_Series_CW_TS1.R")
+     source("scripts/EDA for Time Series Data using R.R")
      ```
    - For **Sunspots**:
      ```r
-     source("scripts/Time_Series_CW_TS2.R")
+     source("scripts/Time Series Model Fitting and Forecasting.R")
      ```
 
 ### Outputs
@@ -105,7 +105,7 @@ To execute the analysis:
 - Predictions captured the cyclical nature of sunspot activity but showed some deviations.
 
 ### Forecast Accuracy
-Forecast accuracy for both datasets was evaluated using Mean Squared Error (MSE) and Root Mean Squared Error (RMSE). Detailed results can be found in the report (`report/MS4S09_CW2_30050079.pdf`).
+Forecast accuracy for both datasets was evaluated using Mean Squared Error (MSE) and Root Mean Squared Error (RMSE). Detailed results can be found in the report (`report/Time Series Analysis using R_PG.pdf`).
 
 ---
 
@@ -121,5 +121,4 @@ This project is for educational purposes and follows academic integrity guidelin
 ---
 
 ## Author
-- **Student ID:** 30050079
 - For questions or collaborations, contact via GitHub.
